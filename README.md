@@ -5,6 +5,7 @@ Projeto referente a um sistema robusto e escalável para integrar, processar e a
 - [Zebrinha_Azul](#Zebrinha_Azul)
   - [APIS](#apis)
     - [Weather](#Weather)
+    - [TOMTOM](#TOMTOM)
   - [Tecnologias](#tecnologias)
   - [Inicializando](#inicializando)
     - [Client](#client)
@@ -34,13 +35,35 @@ Caso você queira dados do clima de um local e data especifica você pode atuali
 E rodar novamente para atualizar nosso json file.
 
 ```bash
-  cd src/data
+  cd server/src/data
   npx tsc weatherAPI.ts
   node weatherAPI.js
 ```
 
-### API de transito - 
+### TOMTOM
 
+- [TOMTOM API](https://developer.tomtom.com/)
+
+No TOMTOM API nos obtemos a nossa APIKEY que inserimos no nosso .env desta forma:
+
+```bash
+  TOMTOMAPIKEY=suakeydoTOMTOMaqui
+```
+
+Caso você queira dados do transito de um ponto a outro diferente você pode atualizar no arquivo tomtomAPI.ts os seguintes campos:
+
+```bash
+  const saoPauloCoords = '-23.5505,-46.6333'
+  const rioDeJaneiroCoords = '-22.9068,-43.1729'
+```
+
+E rodar novamente para atualizar nosso json file.
+
+```bash
+  cd server/src/data
+  npx tsc tomtomAPI.ts
+  node tomtomAPI.js
+```
 
 ## Tecnologias
 
