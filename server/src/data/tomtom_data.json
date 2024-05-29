@@ -1,0 +1,26 @@
+{
+  "routes": [
+    {
+      "summary": {
+        "lengthInMeters": 444497,
+        "travelTimeInSeconds": 19866,
+        "trafficDelayInSeconds": 341,
+        "trafficLengthInMeters": 1456,
+        "departureTime": "2024-05-29T15:57:12-03:00",
+        "arrivalTime": "2024-05-29T21:28:18-03:00"
+      },
+      "legs": [
+        {
+          "summary": {
+            "lengthInMeters": 444497,
+            "travelTimeInSeconds": 19866,
+            "trafficDelayInSeconds": 341,
+            "trafficLengthInMeters": 1456,
+            "departureTime": "2024-05-29T15:57:12-03:00",
+            "arrivalTime": "2024-05-29T21:28:18-03:00"
+          }
+        }
+      ]
+    }
+  ]
+}
