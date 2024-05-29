@@ -1,0 +1,191 @@
+{
+    "location": {
+        "name": "Sao Paulo",
+        "region": "Sao Paulo",
+        "country": "Brazil"
+    },
+    "forecast": {
+        "forecastday": [
+            {
+                "date": "2024-01-01",
+                "day": {
+                    "condition": {
+                        "text": "Patchy rain possible",
+                        "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+                        "code": 1063
+                    }
+                },
+                "hour": [
+                    {
+                        "time_epoch": 1704078000,
+                        "time": "2024-01-01T03:00:00.000Z",
+                        "temp_c": 19.2,
+                        "humidity": 85,
+                        "cloud": 70
+                    },
+                    {
+                        "time_epoch": 1704081600,
+                        "time": "2024-01-01T04:00:00.000Z",
+                        "temp_c": 19.1,
+                        "humidity": 84,
+                        "cloud": 71
+                    },
+                    {
+                        "time_epoch": 1704085200,
+                        "time": "2024-01-01T05:00:00.000Z",
+                        "temp_c": 19.2,
+                        "humidity": 83,
+                        "cloud": 100
+                    },
+                    {
+                        "time_epoch": 1704088800,
+                        "time": "2024-01-01T06:00:00.000Z",
+                        "temp_c": 19.3,
+                        "humidity": 82,
+                        "cloud": 92
+                    },
+                    {
+                        "time_epoch": 1704092400,
+                        "time": "2024-01-01T07:00:00.000Z",
+                        "temp_c": 19.4,
+                        "humidity": 82,
+                        "cloud": 69
+                    },
+                    {
+                        "time_epoch": 1704096000,
+                        "time": "2024-01-01T08:00:00.000Z",
+                        "temp_c": 19.2,
+                        "humidity": 83,
+                        "cloud": 61
+                    },
+                    {
+                        "time_epoch": 1704099600,
+                        "time": "2024-01-01T09:00:00.000Z",
+                        "temp_c": 19.3,
+                        "humidity": 82,
+                        "cloud": 57
+                    },
+                    {
+                        "time_epoch": 1704103200,
+                        "time": "2024-01-01T10:00:00.000Z",
+                        "temp_c": 19.8,
+                        "humidity": 80,
+                        "cloud": 60
+                    },
+                    {
+                        "time_epoch": 1704106800,
+                        "time": "2024-01-01T11:00:00.000Z",
+                        "temp_c": 20.8,
+                        "humidity": 76,
+                        "cloud": 43
+                    },
+                    {
+                        "time_epoch": 1704110400,
+                        "time": "2024-01-01T12:00:00.000Z",
+                        "temp_c": 22.6,
+                        "humidity": 68,
+                        "cloud": 64
+                    },
+                    {
+                        "time_epoch": 1704114000,
+                        "time": "2024-01-01T13:00:00.000Z",
+                        "temp_c": 24.5,
+                        "humidity": 62,
+                        "cloud": 76
+                    },
+                    {
+                        "time_epoch": 1704117600,
+                        "time": "2024-01-01T14:00:00.000Z",
+                        "temp_c": 26.2,
+                        "humidity": 56,
+                        "cloud": 64
+                    },
+                    {
+                        "time_epoch": 1704121200,
+                        "time": "2024-01-01T15:00:00.000Z",
+                        "temp_c": 27.6,
+                        "humidity": 49,
+                        "cloud": 78
+                    },
+                    {
+                        "time_epoch": 1704124800,
+                        "time": "2024-01-01T16:00:00.000Z",
+                        "temp_c": 29.2,
+                        "humidity": 43,
+                        "cloud": 79
+                    },
+                    {
+                        "time_epoch": 1704128400,
+                        "time": "2024-01-01T17:00:00.000Z",
+                        "temp_c": 29.5,
+                        "humidity": 42,
+                        "cloud": 80
+                    },
+                    {
+                        "time_epoch": 1704132000,
+                        "time": "2024-01-01T18:00:00.000Z",
+                        "temp_c": 26.5,
+                        "humidity": 57,
+                        "cloud": 85
+                    },
+                    {
+                        "time_epoch": 1704135600,
+                        "time": "2024-01-01T19:00:00.000Z",
+                        "temp_c": 24.2,
+                        "humidity": 70,
+                        "cloud": 88
+                    },
+                    {
+                        "time_epoch": 1704139200,
+                        "time": "2024-01-01T20:00:00.000Z",
+                        "temp_c": 23.7,
+                        "humidity": 71,
+                        "cloud": 58
+                    },
+                    {
+                        "time_epoch": 1704142800,
+                        "time": "2024-01-01T21:00:00.000Z",
+                        "temp_c": 22.9,
+                        "humidity": 73,
+                        "cloud": 76
+                    },
+                    {
+                        "time_epoch": 1704146400,
+                        "time": "2024-01-01T22:00:00.000Z",
+                        "temp_c": 21.9,
+                        "humidity": 76,
+                        "cloud": 53
+                    },
+                    {
+                        "time_epoch": 1704150000,
+                        "time": "2024-01-01T23:00:00.000Z",
+                        "temp_c": 21.5,
+                        "humidity": 78,
+                        "cloud": 32
+                    },
+                    {
+                        "time_epoch": 1704153600,
+                        "time": "2024-01-02T00:00:00.000Z",
+                        "temp_c": 21.3,
+                        "humidity": 79,
+                        "cloud": 37
+                    },
+                    {
+                        "time_epoch": 1704157200,
+                        "time": "2024-01-02T01:00:00.000Z",
+                        "temp_c": 21.3,
+                        "humidity": 79,
+                        "cloud": 34
+                    },
+                    {
+                        "time_epoch": 1704160800,
+                        "time": "2024-01-02T02:00:00.000Z",
+                        "temp_c": 21.2,
+                        "humidity": 79,
+                        "cloud": 44
+                    }
+                ]
+            }
+        ]
+    }
+}
