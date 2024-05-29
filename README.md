@@ -115,6 +115,13 @@ $ cd ..
 $ npm run migration:run
 ```
 
+e por fim iremos preencher o banco com os nossos dados das APIS:
+
+```bash
+$ cd src/data
+$ npx ts-node fill-database.ts
+```
+
 ### Server:
 
 A nossa Server foi construida utilizando o Node.js utilizando Express e TypeScript, e o TypeORM. Utilizei também do bycript para a encriptação de senhas. Para o server também é necessário que preenchamos nosso file .env com os seguinte campo:
