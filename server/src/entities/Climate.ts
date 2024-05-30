@@ -1,6 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
-@Entity()
+@Entity('climate')
 export class Climate {
   @PrimaryGeneratedColumn()
   id: number;
@@ -21,7 +21,6 @@ export class Climate {
 export interface Forecast {
   date: string;
   day: Day;
-  hour: Hour[];
 }
 
 export interface Day {
@@ -32,12 +31,4 @@ export interface Condition {
   text: string;
   icon: string;
   code: number;
-}
-
-export interface Hour {
-  time_epoch: number;
-  time: string;
-  temp_c: number;
-  humidity: number;
-  cloud: number;
 }
