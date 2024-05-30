@@ -145,7 +145,13 @@ $ npm run dev
 
 ### Iniciando o Front-end:
 
-O nosso front-end foi inciado utilizando vite com o uso de React + Typescript e fazendo uso da biblioteca do Material UI para componentização e criação do design do projeto. O design do projeto foi criado a partir de cores e imgs/icons que remetem o agro e o campo, tudo isso a partir de um protótipo criado no figma.
+O nosso front-end foi inciado utilizando vite com o uso de React + Typescript e fazendo uso da biblioteca do Material UI para componentização e criação do design do projeto.
+
+Primeiramente precisamos criar um arquivo .env na raiz do projeto e adicionar o seguinte comando:
+
+```bash
+VITE_APP_BASE_URL_API=http://localhost:3000
+```
 
 Para iniciar o nosso front-end o primeiro passo é acessar a nossa pasta client: 
 
